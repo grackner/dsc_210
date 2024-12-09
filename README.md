@@ -24,9 +24,9 @@ Linear Regression with LASSO:
 
 Newton's Method:
 
-    R^2 = .60
-    MAE = 188252.34
-    RMSE = 275050.27
+    R^2 = .61
+    MAE = 187181.66
+    RMSE = 273822.51
 
 XGBoost:
 
