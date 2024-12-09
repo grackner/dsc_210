@@ -5,13 +5,13 @@
 
 2. Activite your virtual environment: 
 
-    ``source .group7_env/bin/activate``    # Mac/Linux
+    ``source .group7_env/bin/activate``    -->  Mac/Linux
                                        
-    ``.group7_env\Scripts\activate``       # Windows
+    ``.group7_env\Scripts\activate``       --> Windows
 
 3. Install all dependencies: ``pip install -r requirements.txt``
 
-4. When running a .ipynb file, select this python environment as your kernel
+4. When running a .ipynb file, select this ``.group7_env`` python environment as your kernel
 
 5. If you get an error importing xgboost: ``brew install libomp``
 
@@ -24,9 +24,9 @@ Linear Regression with LASSO:
 
 Newton's Method:
 
-    R^2 = .635
-    MAE = 179695.41
-    RMSE = 262443.67
+    R^2 = .60
+    MAE = 188252.34
+    RMSE = 275050.27
 
 XGBoost:
 
@@ -34,7 +34,7 @@ XGBoost:
     MAE = 168259.50
     RMSE = 248893.27
 
-1. To confirm these results, run the following files:
+1. To confirm these results, run all code cells in the following files:
     
     ``Linear_Regression_LASSO.ipynb``
     
