@@ -2,18 +2,19 @@
 
 ## Setting Up Virtual Environment
 1. Create a virtual environment: ``python3 -m venv .group7_env``
-
+*Or just "python" depending on your python version
 2. Activite your virtual environment: 
 
-    ``source .group7_env/bin/activate``    -->  Mac/Linux
+    ``source .group7_env/Scripts/activate``    -->  Mac/Linux
                                        
     ``.group7_env\Scripts\activate``       --> Windows
+   
 
-3. Install all dependencies: ``pip install -r requirements.txt``
+4. Install all dependencies: ``pip install -r requirements.txt``
 
-4. When running a .ipynb file, select this ``.group7_env`` python environment as your kernel
+5. When running a .ipynb file, select this ``.group7_env`` python environment as your kernel
 
-5. If you get an error importing xgboost: ``brew install libomp``
+6. If you get an error importing xgboost: ``brew install libomp``
 
 ## Results
 Linear Regression with LASSO:
