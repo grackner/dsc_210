@@ -6,6 +6,7 @@
 2. Activite your virtual environment: 
 
     ``source .group7_env/bin/activate``    -->  Mac/Linux
+   
     ``source .group7_env/Scripts/activate``    -->  If git terminal                          
     ``.group7_env\Scripts\activate``       --> Windows
    
